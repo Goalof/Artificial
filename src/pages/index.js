@@ -11,10 +11,16 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				Artificial Intelligence
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/60be2d03625b88001ed83546/images/Group%20396.png?v=2021-06-07T14:37:41.276Z"} type={"image/x-icon"} />
+			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/60be2d03625b88001ed83546/images/Group%20396.png?v=2021-06-07T14:37:41.276Z"} />
+			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/60be2d03625b88001ed83546/images/Group%20396.png?v=2021-06-07T14:37:41.276Z"} />
+			<link rel={"apple-touch-icon"} sizes={"152x152"} href={"https://uploads.quarkly.io/60be2d03625b88001ed83546/images/Group%20396.png?v=2021-06-07T14:37:41.276Z"} />
+			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/60be2d03625b88001ed83546/images/Group%20396.png?v=2021-06-07T14:37:41.276Z"} />
+			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/60be2d03625b88001ed83546/images/Group%20396.png?v=2021-06-07T14:37:41.276Z"} />
+			<meta name={"msapplication-TileColor"} content={"#0A121F"} />
 		</Helmet>
 		<Section background="#0A121F">
 			<Override
@@ -71,6 +77,8 @@ export default (() => {
 							lg-padding="5px 5px 5px 5px"
 							lg-margin="5px 20px 5px 20px"
 							lg-font="600 18px/22px --fontFamily-googleOpenSans"
+							hover-color="--primary"
+							transition="color 0.4s ease 0s"
 						>
 							Home
 						</Link>
@@ -84,6 +92,8 @@ export default (() => {
 							lg-padding="5px 5px 5px 5px"
 							lg-margin="5px 20px 5px 20px"
 							lg-font="600 18px/22px --fontFamily-googleOpenSans"
+							hover-color="--primary"
+							transition="color 0.4s ease 0s"
 						>
 							About
 						</Link>
@@ -97,6 +107,8 @@ export default (() => {
 							lg-padding="5px 5px 5px 5px"
 							lg-margin="5px 20px 5px 20px"
 							lg-font="600 18px/22px --fontFamily-googleOpenSans"
+							hover-color="--primary"
+							transition="color 0.4s ease 0s"
 						>
 							Services
 						</Link>
@@ -110,6 +122,8 @@ export default (() => {
 							lg-padding="5px 5px 5px 5px"
 							lg-margin="5px 20px 5px 20px"
 							lg-font="600 18px/22px --fontFamily-googleOpenSans"
+							hover-color="--primary"
+							transition="color 0.4s ease 0s"
 						>
 							Blog
 						</Link>
@@ -123,6 +137,8 @@ export default (() => {
 							lg-padding="5px 5px 5px 5px"
 							lg-margin="5px 20px 5px 20px"
 							lg-font="600 18px/22px --fontFamily-googleOpenSans"
+							hover-color="--primary"
+							transition="color 0.4s ease 0s"
 						>
 							Contact
 						</Link>
